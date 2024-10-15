@@ -46,4 +46,4 @@ deploy to s3:
   script:
     - aws --version
     - echo "Hello World" > app.txt
-    - aws s3 cp app.txt s3://<votre nom de compartiment>/app.txt
+    - aws s3 cp app.txt s3://mytestpipeline/app.txt
